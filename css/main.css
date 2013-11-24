@@ -1,0 +1,91 @@
+ article, footer, header, nav, main, aside, details, figcaption, 
+figure, hgroup, menu, section{
+    display:block;
+}
+#container {
+    width:980px;
+    margin:auto;
+}
+html {
+	background-image:url('../pics/bg_dark.jpg');
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	 background-size: cover;
+	font-family: "Lato",Arial;
+}
+header {
+    width:980px;
+}
+header figure {
+    left:380;
+    top:-30px;
+	height: 100px;
+	width: 100px;
+	position:relative;
+}
+article .headerText {
+    color: #AAAAAA;
+    font-size: 19px;
+    letter-spacing: 0.2px;
+    line-height: 26px;
+    margin-top: 20px;
+    text-align:center;
+}
+.button {
+   border-top: 1px solid #cc2222;
+   background: #b50909;
+   background: -webkit-gradient(linear, left top, left bottom, from(#b02525), to(#b50909));
+   background: -webkit-linear-gradient(top, #b02525, #b50909);
+   background: -moz-linear-gradient(top, #b02525, #b50909);
+   background: -ms-linear-gradient(top, #b02525, #b50909);
+   background: -o-linear-gradient(top, #b02525, #b50909);
+   padding: 20px 40px;
+   -webkit-border-radius: 17px;
+   -moz-border-radius: 17px;
+   border-radius: 17px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #ffffff;
+   font-size: 24px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   list-style:none;
+   width:108px;
+   display:inline;
+   margin-left:20px;
+   }
+.button:hover {
+   border-top-color: #c94545;
+   background: #c94545;
+   color: #f7f7f7;
+}
+.button a {
+   color:white;
+   text-decoration:none;
+}
+#button {
+    margin-left:250px;
+    margin-top:100px;
+}
+.login {
+    margin-top:60px;
+    margin-left:330px;
+}
+
+ form.login{
+         color:red;
+}
+form.login a{
+    display:block;
+    
+    width:50px;
+    margin-left:300px;
+    margin-top:-20px;
+    text-decoration:none;
+    padding:3px;
+    color:red;
+}
