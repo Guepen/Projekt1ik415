@@ -1,0 +1,82 @@
+ article, footer, header, nav, main, aside, details, figcaption, 
+figure, hgroup, menu, section{
+    display:block;
+}
+#container {
+    width:auto;
+    margin:auto;
+}
+html {
+	background-image:url('../pics/bg_dark.jpg');
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	 background-size: cover;
+	font-family: "Lato",Arial;
+}
+header.logo {
+    background-image:url('../pics/mix_mini1.png');
+    width:250px;
+    height:63px;
+    background-repeat:no-repeat;
+    
+}
+article .headerText {
+    color: #AAAAAA;
+    font-size: 19px;
+    letter-spacing: 0.2px;
+    line-height: 26px;
+    margin-top: 20px;
+    text-align:center;
+}
+article.mall_article {
+    margin:15px;
+    width:90%;
+    max-width:280px;
+}
+.button {
+   border-top: 1px solid #cc2222;
+   background: #b50909;
+   background: -webkit-gradient(linear, left top, left bottom, from(#b02525), to(#b50909));
+   background: -webkit-linear-gradient(top, #b02525, #b50909);
+   background: -moz-linear-gradient(top, #b02525, #b50909);
+   background: -ms-linear-gradient(top, #b02525, #b50909);
+   background: -o-linear-gradient(top, #b02525, #b50909);
+   padding: 20px 40px;
+   -webkit-border-radius: 17px;
+   -moz-border-radius: 17px;
+   border-radius: 17px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #ffffff;
+   font-size: 16px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   width:auto;
+   
+   margin-left:20px;
+   }
+.button a {
+   color:white;
+   text-decoration:none;
+}
+#button {
+    margin-left:20px;
+    margin-top:20px;
+}
+.login {
+    margin-top:25px;
+    margin-left:35px;
+    width:auto;
+    max-width:70%;
+}
+
+.login a{
+    color:red;
+}
+
+.nomobile{
+    display:none;
+}
